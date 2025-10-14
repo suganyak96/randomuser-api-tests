@@ -33,23 +33,27 @@ This test suite validates different endpoints and scenarios such as:
 
 ```
 randomuser-api-tests/
+randomuser-api-tests/
 │
 ├── src/
-│ ├── main/java/com/example/randomuser/
-│ │ ├── core/BaseTest.java
-│ │ └── utils/
-│ │ ├── ApiClient.java
-│ │ ├── ConfigManager.java
-│ │ └── ResponseValidator.java
-│ └── test/java/com/example/randomuser/tests/
-│ ├── HappyPathTests.java
-│ └── UnhappyPathTests.java
+│   └── test/java/com/example/randomuser/
+│       ├── core/
+│       │   └── BaseTest.java
+│       ├── utils/
+│       │   ├── ApiClient.java
+│       │   ├── ConfigManager.java
+│       │   └── ResponseValidator.java
+│       └── tests/
+│           ├── HappyPathTests.java
+│           └── UnhappyPathTests.java
 │
 ├── config.properties
 ├── pom.xml
 ├── testng.xml
 ├── .github/workflows/ci.yml
 └── README.md
+
+
 ```
 
 ## 🧾 Prerequisites
